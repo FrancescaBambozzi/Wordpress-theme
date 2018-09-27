@@ -1,0 +1,123 @@
+/*
+Theme Name: Vanilla
+Theme URI: http://vanillamarketing.it/en
+Author: Guido Carucci
+Author URI: www.guidocarucci.com
+Description: A clean, elegant and responsive starter theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: Vanilla Theme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+
+/************************* TYPOGRAPHY *************/
+
+h1{
+  font-size: 48px;
+  font-weight: 800;
+}
+h2{
+  font-size: 40px;
+  font-weight: 700;
+}
+h3{
+  font-size: 36px;
+  font-weight: 600;
+}
+h4{
+  font-size: 34px;
+  font-weight: 500;
+}
+
+
+
+
+
+/************************* HEADER *************/
+header{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+#top-navigation {
+  border-top: 2px solid #fafafa;
+  background-color: white;
+  padding: 10px 0px;
+  text-decoration: none;
+}
+
+#top-navigation li {
+  margin: 10px 0px;
+}
+
+#top-navigation li a {
+  text-decoration: none;
+  color: #777;
+
+}
+
+#top-navigation li a:hover{
+  color: #222;
+}
+
+#hero {
+  background-image: url('images/hero.jpg');
+  /* Full height */
+    height: 100%;
+  /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ----------- Tablets larger than 768px wide ----------- */
+@media only screen and (min-width: 768px) {
+
+  }
+
+/* ----------- Desktop larger than 940px wide ----------- */
+@media only screen and (min-width: 940px) {
+#logo {
+  background-color: transparent;
+}
+
+#top-navigation {
+  background-color: transparent;
+}
+
+  #top-navigation ul {
+    padding: 20px 0px;
+  }
+
+  #top-navigation li {
+    display: inline;
+    padding: 0 10px;
+  }
+
+  #top-navigation li a {
+    color: #222;
+  }
+
+  #top-navigation li a:hover{
+    color: #f7f7f7;
+  }
+
+  }
